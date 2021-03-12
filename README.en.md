@@ -1,36 +1,18 @@
-# AutoSidebarForDocsify
-
-#### Description
-用课余时间写了一个Docsify 自动生成目录的插件。
-
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+# Auto Sidebar For Docsify
+## Introduction
+In my spare time, I wrote a plug-in for Docsify to automatically generate a table of contents.
+## Features
+The main functions of Auto Sidebar For Docsify are: The blog deployed by Docsify automatically generates a directory.
+## Environmental requirements
+-nodejs
+## Instructions for use
+Copy the auto Sidebar.js file of this project to the root directory of the git project.
+**Reminder**: Please back up the original `_ sidebar.md` file before use. Running the program will overwrite the original file.
+```bash
+$ node autoSidebar.js
+```
+After completion, the document effect will be automatically output in the terminal and written into the `_sidebar.md` file
+## Effect picture
+![](img/2021-03-12-12-42-08.png)
+## Note
+The directory has been optimized, and there will be no duplicate paths in the tree diagram.
